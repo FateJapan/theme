@@ -2,7 +2,7 @@
 /*Chel-San*/
 /*Icone do Cargo*/
 #user-rollover .id-3980131 .level:after {
-    background-image: url("https://i.imgur.com/QowhEMT.png") !important;
+    background-image: url(https://i.imgur.com/QowhEMT.png) !important;
     background-repeat: no-repeat;
     content: "Space";
     display: inline-block;
@@ -18,7 +18,7 @@
    /*Chel-San*/
 /*Icone do Cargo*/
 #user-rollover .id-3980131:before {
-    content: url("https://i.imgur.com/6aph5FJ.png") !important;
+    content: url(https://i.imgur.com/6aph5FJ.png) !important;
     top: 146px;
     left: 109px;
     position: absolute;
@@ -38,13 +38,4 @@
 }
 /*Start>Fix para Badge Rollover RCS*/
 #user-rollover .id-3980131 .meta {
-    height: 170px !important;
-}
-#user-rollover .id-3980131 .meta #isSpecial {
-    top: 145px !important;
-}
-#user-rollover .id-3980131 .meta #isSpecialtxt {
-    top: 143px !important;
-}
-#user-rollover .id-3980131 .meta #pp-special{
-    display: none;}
+    height: 170px !important;}
