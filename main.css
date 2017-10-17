@@ -1,0 +1,1430 @@
+/*CSS>Edit:Fate*/
+/*Main*/
+/*Icones*/
+.icon {
+	background-image: url('https://i.imgur.com/ry9Rf9D.png');}
+/*----------------------------------------------------------*/
+/*[BOT]*/
+/*#chat [data-cid^="3980131-"] span.un.clickable {
+	color: rgba(155, 17, 54, 1) !important;}
+#chat [data-cid^="3980131-"].emote {
+	background: rgba(177, 49, 83, 0.2) !important;
+	border-left: rgb(178, 49, 83) 3px solid !important;}
+#chat [data-cid^="3980131-"].emote .timestamp {
+    color: #A993C7 !important;}
+#chat [data-cid^="3980131-"].emote .text {
+    color: #f7f7f7 !important;}
+#chat [data-cid^="3980131-"] .icon,
+#chat .id-3980131 .icon {
+    display:none !important;}*/
+/*-------------------------*/
+/*Moderação*/
+#chat .cm.moderation {
+	background: linear-gradient(hsla(260,50%,25%,0.8), hsla(260,50%,15%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(260,50%,50%);
+	border: none !important;
+}
+#chat .cm.moderation .timestamp {
+	color: hsl(260,70%,70%);
+}
+.radiantemote {
+    max-width: 270px !important;
+    max-height: 180px !important;}
+/*------------------------------*/
+/*Ação do Usuário*/
+#chat .cm.user-action {
+	background: linear-gradient(hsla(60,100%,20%,.8), hsla(60,100%,10%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsla(0,0%,100%,0.1);
+}
+#chat .cm.user-action .msg .from .un, #chat .cm.user-action .timestamp {
+	color: hsl(60,90%,70%) !important;}
+/*-------------------------------------*/
+/*Menção*/
+#chat .cm.mention {
+	background: linear-gradient(hsla(77,100%,20%,0.8), hsla(77,100%,11%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(77,100%,30%);
+	border: none !important;
+}
+#chat .cm.mention .name, #chat .cm.mention .timestamp {
+	color: hsl(77,100%,40%);
+}
+#chat .cm.mention .msg .from .un {
+	color: hsl(77,100%,50%);}
+/*Assinante Ouro*/
+#chat .cm.mention.is-subscriber {
+	background: linear-gradient(hsla(40,100%,30%,0.8), hsla(40,100%,20%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(30,50%,50%);
+}
+#chat .cm.mention.is-subscriber .name, #chat .cm.mention.is-subscriber .timestamp, #user-rollover .meta.subscriber .status span {
+	color: hsl(40,100%,60%);}
+/*DJ Residente*/
+#chat .cm.mention.is-dj {
+	background: linear-gradient(hsla(20,100%,30%,0.8), hsla(20,100%,20%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(20,50%,50%);
+}
+#chat .cm.mention.is-dj .name, #chat .cm.mention.is-dj .timestamp {
+	color: hsl(20,100%,60%);}
+/*Segurança*/
+#chat .cm.mention.is-bouncer {
+	background: linear-gradient(hsla(354,100%,20%,0.8), hsla(354,100%,10%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(354,50%,50%);
+}
+#chat .cm.mention.is-bouncer .name, #chat .cm.mention.is-bouncer .timestamp {
+	color: #F45;}
+/*Manager*/
+#chat .cm.mention.is-manager {
+	background: linear-gradient(hsla(350,85%,20%,0.8), hsla(350,85%,10%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(350,50%,50%);
+}
+#chat .cm.mention.is-manager .name, #chat .cm.mention.is-manager .timestamp {
+	color: #E15;}
+/*Co-Anfitrião*/
+#chat .cm.mention.is-cohost {
+	background: linear-gradient(hsla(210,100%,30%,0.8), hsla(210,100%,20%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(210,50%,50%);
+}
+#chat .cm.mention.is-cohost .name, #chat .cm.mention.is-cohost .timestamp {
+	color: hsl(210,100%,50%);}
+/*Anfitrião*/
+#chat .cm.mention.is-host {
+	background: linear-gradient(hsla(200,100%,30%,0.8), hsla(200,100%,20%,0.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 0 0 1px hsl(200,50%,50%);
+}
+#chat .cm.mention.is-host .name, #chat .cm.mention.is-host .timestamp {
+	color: hsl(200,100%,50%);
+}
+#chat .cm.mention .msg {
+/*Fix RCS*/
+	background: none !important;}
+/*-----------------------------*/
+/*Visualização de Vídeo*/
+.dialog {
+    background: rgba(0, 0, 0, 0.42);
+	border-radius: 8px;}
+.dialog .button.cancel {
+    background: #3e1616 !important;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+.dialog .button.cancel:hover {
+    background: #671e1e !important;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+#dialog-preview .dialog-frame .button.submit {
+	color: #fff;
+	border-radius: 8px;}
+#dialog-preview .dialog-frame .button.submit {
+	background: 0 !important;
+	border-radius: 8px;}
+#chat .message:nth-child(2n+1),
+#chat .mention:nth-child(2n+1),
+#chat .skip:nth-child(2n+1),
+#chat .moderation:nth-child(2n+1),
+#chat .emote:nth-child(2n+1),
+#chat .update:nth-child(2n+1),
+#chat .welcome:nth-child(2n+1) {
+	overflow: hidden;}
+/*#chat [data-cid^="3980131-"].emote
+{
+    overflow: hidden;}*/
+/*------------------*/
+/*Interface*/
+#footer-user .info {
+	background: rgba(0, 0, 0, 0.70);}
+#footer #your-next-media.in-history {
+    color: hsl(51, 80%, 55%);}
+#dashboard {
+	background: rgba(0, 0, 0, 0.5) !important;}
+.tab-menu button.selected {
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 51%, 23%)) !important;
+	border-radius: 8px;}
+.tab-menu button:hover {
+	background: linear-gradient(hsla(343, 45%, 30%, 1), hsl(343, 51%, 23%));
+	border-radius: 8px;}
+.tab-menu button {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 8px;}
+#rcs-progress-container {
+	background-color: #440516 !important;
+	border-radius: 8px;}
+#rcs-progress-container .bar {
+	background: linear-gradient(hsl(343, 57%, 50%), hsla(345, 54%, 22%, 0.95)) !important;
+	border-radius: 8px;}
+#user-menu .item.selected {
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 51%, 23%));
+	border-radius: 8px;}
+#playlist-menu .menu .row .count {
+	color: #bc2b52;
+	border-radius: 8px;}
+#user-view {
+	background: rgba(17, 19, 23, 0.8) !important;}
+#user-menu {
+	background: rgba(28, 31, 37, 0) !important;}
+#rs-skip-button {
+	background: rgba(28, 31, 37, 0) !important;}
+#history-button {
+	background: rgba(28, 31, 37, 0) !important;
+}
+#room .app-right {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);
+}
+#room-host,
+#room-name {
+	left: 75px;}
+#room-bar .icon-room {
+	top: 8px;
+	left: 10px;}
+i.icon.icon-room {
+	width: 65px;
+	height: 50px;}
+.icon-room {
+	background: url(https://i.imgur.com/DPTryHv.png) no-repeat;
+	width: 0px;
+	height: 0px;
+	background-size: 100%;
+	margin-left: -5px;
+	margin-top: 5px;}
+.app-header {
+	background: rgba(28, 31, 37, 0.59);}
+/*--------------------------------------*/
+/*Chat Botões em Cima*/
+.header-panel-button.selected {
+	background-color: rgba(183, 49, 85, 0.25)!important;
+	border-radius: 8px;}
+/*--------------------*/
+/*Botões à Direita*/
+#footer-user .buttons .button.store:hover {
+	background: rgba(206, 25, 55, 0.2);
+	border-radius: 8px;}
+#footer-user .buttons .button.inventory:hover {
+	box-shadow: none;
+	border-radius: 8px;}
+#footer-user .buttons .button:hover {
+	background: linear-gradient(to bottom, rgba(96, 29, 47, 0.2) 0, rgba(124, 38, 61, 0.5) 100%) !important;
+	border-radius: 8px;}
+/*--------------------*/
+/*Fundo Parte Superior/Inferior*/
+        /*Área de Texto*/
+#chat-input {
+	background: linear-gradient(hsla(341, 32%, 10%,.8), hsla(341, 32%, 15%,.8));
+    box-shadow: inset 0 0 0 1px hsla(341, 32%, 20%,.8), transparent;
+    transition: all .25s ease-in-out;
+}
+#chat-input.focused {
+    background: linear-gradient(hsla(341, 52%, 20%,.8), hsla(341, 52%, 25%,.8)) !important;
+    box-shadow:
+    inset 0 0 0 1px hsla(341, 52%, 40%,.8),
+        0 0 5px 1px hsla(341, 52%, 40%,.8) !important;
+        border-radius: 10px;
+}
+#chat-input-field::-webkit-input-placeholder {
+    color: #542131;
+}
+:-moz-placeholder {
+    color: #542131;
+    opacity:  1;
+}
+::-moz-placeholder {
+    color: #542131;
+    opacity:  1;
+}
+:-ms-input-placeholder {
+    color: #542131;}
+/*------------------*/
+/*Icones*/
+.icon-radiant-clearchat {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url('https://i.imgur.com/W5iCrQa.png') !important;}
+.icon-radiant-rcsclearchat {
+    background: url('https://i.imgur.com/gEIsZme.png') !important;}
+.icon-check-purple {
+	background: url('https://i.imgur.com/IwChAmN.png');
+	background-repeat: no-repeat;
+	background-position: 5px;}
+.icon-next-track {
+	background: url('https://i.imgur.com/beaJGsk.png');
+	background-repeat: no-repeat;
+	background-position: 3px;}
+/*.icon-site-logo {
+	background: url('') no-repeat;}*/
+/*-------------------------------*/
+#footer .bar-button .section .chevron:before {
+	background: #af3d5c;
+	border-radius: 8px;}
+#footer .bar-button .section .chevron:after {
+	background: #af3d5c;
+	border-radius: 8px;}
+/*--------------------*/
+/*Botão Playlist*/
+#playlist-button {
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 51%, 23%)) !important;
+	border-radius: 8px;}
+#playlist-button i.icon.icon-arrow-down {
+	background: url(https://i.imgur.com/IwChAmN.png) 0/30px no-repeat;}
+/*-------------------------------------------------------------------*/
+/*Configurações*/
+   /*Fundo*/
+#user-view,
+#waitlist .user .list .sortable-placeholder {
+	background: #21070b;
+	border-radius: 8px;}
+/*--------------------*/
+#footer-user .back {
+	background: linear-gradient(hsl(343, 53%, 47%), hsla(345, 54%, 12%, 0.95));
+	border-radius: 8px;}
+/*--------------------*/
+/*Playlist*/
+.icon-check-circle {
+	background: url('https://i.imgur.com/wABzXsw.png');}
+#playlist-activate-button span {
+	color: #bc2b52;
+	border-radius: 8px;}
+.media-list .row.selected {
+	background: rgba(150, 36, 66, 0.70) !important;
+	border-radius: 8px;}
+#playlist-menu .menu .row.selected {
+	background: #7a2239;
+	border-radius: 8px;}
+#playlist-activate-button {
+	background: rgba(206, 25, 55, 0.3);
+	border-radius: 8px;}
+/*--------------------*/
+/*Emojis Maiores*/
+#chat span.emoji-sizer {
+	width: 19px !important;
+	height: 19px !important;}
+/*-------------------------*/
+/*Cabeçalho Alternativo Início*/
+    /*Texto Configurações*/
+#room-host,
+#now-playing-dj {
+	color: #fff !important;}
+#room-bar *,
+#now-playing-bar * {
+	font-weight: lighter !important;}
+#room-bar span,
+#now-playing-bar span,
+#now-playing-time span,
+#volume span,
+#rcs-time-elapsed {
+	font-size: 20px !important;}
+#room-bar:hover > #room-name,
+#room-bar > #room-host,
+#now-playing-bar:hover > #now-playing-media,
+#now-playing-bar > #now-playing-dj {
+	opacity: 0 !important;
+	transition: opacity 0.25s !important;}
+#room-bar > #room-name,
+#room-bar:hover > #room-host,
+#now-playing-bar > #now-playing-media,
+#now-playing-bar:hover > #now-playing-dj {
+	opacity: 1 !important;
+	transition: opacity 0.25s !important;
+	transition-delay: 0.25s !important;}
+/*------------------------------------*/
+/*Posicionamento/Dimensionamento*/
+	      /*Posição-Z*/
+#volume span,
+#now-playing-time {
+	z-index: 11 !important;}
+#volume .button {
+	z-index: 12 !important;}
+/*------------------------*/
+/*Posição/Dimensionamento*/
+#room-bar > #room-name,
+#now-playing-bar > #now-playing-media {
+	margin-top: 7px !important;}
+#room-bar > #room-host,
+#now-playing-bar > #now-playing-dj {
+	margin-top: -15px !important;}
+#now-playing-time {
+	margin-top: -2px !important;}
+#volume {
+	margin-top: -26px !important;
+	margin-right: 58px !important;}
+#volume .button {
+	margin-top: 2px !important;
+	right: 0px !important;
+	width: 48px !important;
+	height: 27px !important;}
+/*-------------------------*/
+/*Volume Sempre Amostra*/
+#volume .slider {
+	display: block !important;
+	top: 26px !important;
+	right: -62px !important;}
+/*-------------------------*/
+/*Configurações de Cores para Sobreposição*/
+#volume .slider {
+	background-color: rgba(28, 31, 37, 0.10) !important;
+	box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 31, 37, 0.10) !important;}
+#volume-settings .slider .line, .slider .bar {
+	background: linear-gradient(to right, rgb(255,0,0), rgb(255,128,0), rgb(255,255,0), rgb(0,255,0), rgb(0,255,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255)) !important;}    
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Desaparecimento Decorrido*/
+.elapsing .jspContainer {
+	opacity: 0.0 !important;
+	transition: opacity 1.0s !important;}
+/*-------------------------------------*/
+/*Desaparecer*/
+#now-playing-bar >:not(#history-button):not(#rs-skip-button) i,
+.dark-label {
+	display: none !important;}
+#now-playing-time i {
+	display: none !important;}
+/*--------------------------*/
+/*Barra de XP/PP*/
+#footer-user .info .meta .bar .progress {
+	background: rgba(178, 49, 83, 1);
+	box-shadow: 0 0 10px hsl(343, 100%, 50%) !important;}
+#footer-user .info .points .pp {
+	color: hsl(345, 100%, 57%);
+}
+#the-user-profile .experience .bar, #footer-user .info .meta .bar {
+	border-radius: 20px;}
+#the-user-profile .experience .bar .progress, #footer-user .info .meta .bar .progress {
+	border-radius: 20px;
+	background: linear-gradient(hsl(343, 100%, 60%), hsl(343, 100%, 50%));
+	box-shadow: 0 0 30px hsl(343, 100%, 50%);}
+#the-user-profile .experience .bar .value, #footer-user .info .meta .bar .value {
+	text-shadow: 0 0 3px black;}
+/*------------------------------*/
+/*Chat*/
+#chat .emote .text {
+	font-family: 'Ubuntu', sans-serif;}
+#chat-messages .text {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	line-height: 20px;}
+#chat .from {
+	position: relative;
+	margin-bottom: 3px;
+	font-size: 13px;
+	font-family: 'Ubuntu', sans-serif;}
+#chat-input-field {
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	width: 305px;
+	height: 18px;
+    !important outline: 0;
+	border: 0;
+	background: 0 0;
+	color: #eee;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;}
+/*Inline*/
+#chat .cm.emote .icon, 
+#chat .cm.emote .badge-box, 
+.emote .rs-chat-title, 
+.emote .rcs-user-info
+{
+	display: none !important;
+}
+#chat .emote .contents, 
+.emote .msg .from, 
+.emote .msg .text
+{
+	display: inline !important;
+}
+.emote .msg
+{
+	padding: 6px 6px 6px 16px !important;
+}
+.emote .delete-button
+{
+	padding: 2px 7px 2px 7px !important;
+}
+#chat .cm.welcome {
+	color: #af3d5c;
+	border-top:    #af3d5c 2px dotted;
+	border-left:   #af3d5c 2px dotted;
+	border-bottom: #af3d5c 2px dotted;
+	border-right:  #af3d5c 2px dotted;
+	box-shadow: inset 0 0 0 1px hsl(344, 50%, 29%);
+}
+#chat .log {
+	background: linear-gradient(hsla(343, 31%, 20%,.8), hsla(343, 31%, 15%,.8)),
+	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
+	box-shadow: inset 0 -1px 1px hsla(343, 31%, 10%,.8);
+}
+.cm strong {color: #fff !important;}
+.cm em {color: #999 !important;
+}
+#chat .cm .delete-button {
+	border-radius: 5px;
+	background: linear-gradient(hsl(0,0%,30%), hsl(0,0%,40%));
+	box-shadow: inset 0 0 0 1px hsl(0,0%,50%);
+}
+#chat .cm .delete-button:hover {
+	background: linear-gradient(hsl(5,100%,60%), hsl(5,100%,50%));
+	box-shadow: 0 0 10px hsl(5,100%,50%);
+	color: #000;
+	border-radius: 5px;}
+{
+	animation: rainbow 10s infinite;}
+/*Mensagem*/
+/*DJ Residente*/
+.message.role-dj,
+.emote.role-dj
+{
+	border-left:  #4169E1 2px dotted;
+	border-right: #4169E1 2px dotted;}
+.message.role-dj:hover,
+.emote.role-dj:hover
+{
+	border-left-style:  solid;
+	border-right-style: solid;}
+/*Segurança*/
+.message.role-bouncer,
+.emote.role-bouncer
+{
+	border-left:  #FF1493 2px dotted;
+	border-right: #FF1493 2px dotted;}
+.message.role-bouncer:hover,
+.emote.role-bouncer:hover
+{
+	border-left-style:  solid;
+	border-right-style: solid;}
+/*Manager*/
+.message.role-manager,
+.emote.role-manager
+{
+	border-left:  #8A2BE2 2px dotted;
+	border-right: #8A2BE2 2px dotted;}
+.message.role-manager:hover,
+.emote.role-manager:hover
+{
+	border-left-style:  solid;
+	border-right-style: solid;
+}
+/*Co-Anfitrião*/
+.message.role-cohost,
+.emote.role-cohost
+{
+	border-left:  #CD0000 2px dotted;
+	border-right: #CD0000 2px dotted;}
+.message.role-cohost:hover,
+.emote.role-cohost:hover
+{
+	border-left-style:  solid;
+	border-right-style: solid;}
+/*Anfitrião*/
+.message.role-host,
+.emote.role-host
+{
+	border-top:    #CD5B45 2px dotted;
+	border-left:   #CD5B45 2px dotted;
+	border-bottom: #CD5B45 2px dotted;
+	border-right:  #CD5B45 2px dotted;}
+.message.role-host:hover,
+.emote.role-host:hover
+{
+	border-top-style: solid;
+	border-left-style:  solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	background: linear-gradient(to right, hsla(220,100%,30%,.5), hsla(220,100%,15%,.5)) !important;
+    top: 1px;}
+/*Embaixador*/
+.message.role-ambassador,
+.emote.role-ambassador
+{
+	border-left:  #89BE6C 2px dotted;
+	border-right: #89BE6C 2px dotted;}
+.message.role-ambassador:hover,
+.emote.role-ambassador:hover
+{
+	border-left-style:  solid;
+	border-right-style: solid;}
+/*Anfitrião*/
+.message.role-host > .msg > .text::selection,
+.emote.role-host > .msg > .text::selection,
+.message.role-host > .msg > .text::-moz-selection,
+.emote.role-host > .msg > .text::-moz-selection
+{
+	color: #CD5B45;}
+/*Co-Anfitrião*/
+.message.role-cohost > .msg > .text::selection,
+.emote.role-cohost > .msg > .text::selection,
+.message.role-cohost > .msg > .text::-moz-selection,
+.emote.role-cohost > .msg > .text::-moz-selection
+{
+	color: #CD0000;}
+/*Manager*/
+.message.role-manager > .msg > .text::selection,
+.emote.role-manager > .msg > .text::selection,
+.message.role-manager > .msg > .text::-moz-selection,
+.emote.role-manager > .msg > .text::-moz-selection
+{
+	color: #8A2BE2;}
+/*Segurança*/
+.message.role-bouncer > .msg > .text::selection,
+.emote.role-bouncer > .msg > .text::selection,
+.message.role-bouncer > .msg > .text::-moz-selection,
+.emote.role-bouncer > .msg > .text::-moz-selection
+{
+	color: #FF1493;}
+/*DJ Residente*/
+.message.role-dj > .msg > .text::selection,
+.emote.role-dj > .msg > .text::selection,
+.message.role-dj > .msg > .text::-moz-selection,
+.emote.role-dj > .msg > .text::-moz-selection
+{
+	color: #4169E1;}
+/*Usuário*/
+.message.role-user > .msg > .text::selection,
+.emote.role-user > .msg > .text::selection,
+.message.role-user > .msg > .text::-moz-selection,
+.emote.role-user > .msg > .text::-moz-selection
+{
+	color: #90EE90;}
+/*------------------*/
+/*Menu Lista Ban/Mute/Ignorados*/
+#user-lists .list.bans .user .label:hover {
+	background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 0, 0.27) 100%) !important;
+	border-radius: 8px;}
+#user-lists .list.mutes .user .label:hover {
+	background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 72, 0, 0.27) 100%) !important;
+	border-radius: 8px;}
+#user-lists .list.ignored .user:hover {
+	background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 71, 0.27) 100%) !important;
+	border-radius: 8px;}
+/*--------------------*/
+/*BG Chat Sugestão*/
+#chat-suggestion {
+	background: rgba(2, 1, 1, 0.9);}
+/*----------------------------------*/
+/*Botões Deletar/Esconder Mensagem Chat*/
+.rcs-small-delete { 
+   background: linear-gradient(hsl(343, 95%, 16%), hsl(343, 44%, 3%)) !important;
+   border-radius: 8px;} 
+.rcs-small-delete:hover { 
+   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%)) !important;
+   border-radius: 8px;}
+.radiantimg-small-delete { 
+   background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
+   border-radius: 8px;}
+/*-------------------*/
+/*Cores Chat*/
+/*Anfitrião*/
+#user-lists .group.host {
+    color: #CD5B45;
+    background: linear-gradient(to right, hsla(10, 58%, 34%, 0.5), hsla(10, 58%, 44%, 0.5)) !important;
+    top: 1px;
+}
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+    color: #CD5B45 !important;}
+/*Co-Anfitrião*/
+.icon-chat-cohost + span,
+#user-lists .group.cohost ~ .user span,
+#dialog-user-role .role-menu .menu ul .cohost span {
+    color: #CD5B45 !important;}
+#user-lists .group {
+    border: none !important;
+    box-shadow: 0 0 1px 1px;}   
+/*Manager*/
+#user-lists .group.manager {
+    color: #8A2BE2;
+    background: linear-gradient(to right, hsla(291, 76%, 58%, 0.3), hsla(291, 76%, 68%, 0.3)) !important;
+}
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #8A2BE2 !important;}
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #8A2BE2 !important;}
+/*Segurança*/
+#user-lists .group.bouncer {
+    color: #FF1493;
+    background: linear-gradient(to right, hsla(328, 100%, 17%, 0.5), hsla(328, 100%, 27%, 0.5)) !important;
+}
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+    color: #FF1493 !important;}
+/*DJ Residente*/
+#user-lists .group.dj {
+    color: #4169E1;
+    background: linear-gradient(to right, hsla(217, 100%, 40%, 0.5), hsla(217, 100%, 50%, 0.5)) !important;
+}
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+    color: #4169E1 !important;}
+/*Embaixador*/
+#user-lists .group.ambassador {
+    color: #89BE6C;
+    background: linear-gradient(to right, hsla(99, 49%, 49%, 0.5), hsla(99, 49%, 59%, 0.5)) !important;
+}
+.icon-chat-ambassador + span,
+#user-lists .group.ambassador ~ .user span,
+#dialog-user-role .role-menu .menu ul .ambassador span {
+    color: #89BE6C !important;}
+/*Assinante Ouro*/
+#user-lists .group.subscriber {
+    color: #D4AF37;
+    background: linear-gradient(to right, hsla(45,80%,45%, 0.5), hsla(45,80%,55%, 0.5)) !important;
+}
+.icon-chat-subscriber + span,
+#user-lists .group.subscriber ~ .user span,
+#dialog-user-role .role-menu .menu ul .subscriber span {
+    color: #D4AF37 !important;}
+/*Assinante Prata*/
+#user-lists .group.silver-subscriber {
+    color: #D4D4D4;
+    background: linear-gradient(to right, hsla(0, 0%, 83%, 0.5), hsla(0, 0%, 93%, 0.5)) !important;
+}
+.icon-chat-silver-subscriber + span,
+#user-lists .group.silver-subscriber ~ .user span,
+#dialog-user-role .role-menu .menu ul .silver-subscriber span {
+    color: #D4D4D4 !important;}
+/*Hover Link's*/
+#room-settings a:hover,
+#chat a:hover {
+	color: hsl(200, 100%, 55%) !important;
+	text-shadow: 0 0 5px;}
+/*----------------------*/
+/*Lista das Salas*/
+.communities .grid .cell .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 100%;
+	height: 43px;
+	background: rgba(0, 0, 0, 0.5);}
+.communities .grid .cell {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0 15px 15px 0;
+	width: 250px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;}
+.communities .grid .cell:hover>.meta {
+	margin-top: 43px;
+	height: 257px;
+	background: rgba(40, 40, 40, 0.7);
+	transition: all .15s ease-out;}
+.communities .grid .cell .favorite {
+	top: 0;
+	right: 0;
+	width: 43px;
+	height: 43px;
+	background: rgba(178, 49, 83, 1);}
+.communities .grid .cell .meta {
+	position: relative;
+	z-index: 2;
+	margin-top: 186px;
+	width: 100%;
+	height: 90px;
+	background: rgba(0, 0, 0, 0.5);
+	transition: all .25s ease-in;}
+.communities .grid .cell .meta .join {
+	border-radius: 10px;
+	border: 1px solid rgba(165, 54, 83, 0.63);
+	background: rgb(0, 0, 0);}
+.communities .grid .cell .meta .join:hover {
+	background: linear-gradient(hsl(343, 53%, 47%), hsla(345, 54%, 12%, 0.95));}
+.grid .cell .bar, .grid .cell .meta {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !important;}
+/*#chat .welcome {
+	color: #af3d5c;}*/
+.grid .cell .top .expires span {
+	color: hsl(344, 53%, 48%) !important;}
+.user-content.communities .grid .cell, .grid .cell {
+	background: radial-gradient(hsl(0, 0%, 0%), hsl(343, 54%, 52%)) !important;}
+.grid .cell .meta .host {
+	text-align: center !important;
+	top: 6px !important;
+	color: #eee !important;}
+/*--------------------------*/
+/*Bordas Caixas de Diálogo*/
+#chat-input,
+#search-bar,
+#filter-bar,
+#search-menu,
+.app-right .friends .list-header .input-background,
+#user-lists .list-header .input-background,
+#dashboard .search,
+#rcs-menu .search,
+#user-friends .search,
+.youtube-input,
+.dialog-input-background {
+	-webkit-box-shadow: inset 0 0 0 1px #3a1821 !important;
+	-moz-box-shadow: inset 0 0 0 1px #3a1821 !important;
+	box-shadow: inset 0 0 0 1px #3a1821 !important;
+    border-radius: 10px;}
+/*---------------------*/
+/*Bordas Aredondadas Caixa de Diálogo*/
+#search-bar,
+#filter-bar,
+#search-menu,
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+#rcs-menu .search,
+#dashboard .search,
+#user-friends .search,
+.user-content.profile .meta .blurb,
+.youtube-input,
+.dialog-input-background {
+	border-radius: 10px;}
+/*---------------------*/
+/*Borda Arredondada*/
+.communities .grid .cell .favorite {
+	border-radius: 3px;}
+#footer-user .info .bar .progress,
+#footer-user .info .meta div.bar,
+#user-friends .list .row .buttons button {
+	border-radius: 10px;
+    box-shadow: 0 0 10px #000;}
+#playlist-button,
+.app-right .friends .list-header .input-background {
+	border-radius: 8px;}
+#user-menu .item,
+#user-menu .avatar,
+.experience .xp .bar .progress,
+.user-content.profile .notifications .row,
+.dropdown dt,
+.dropdown,
+#user-friends .search {
+    border-radius: 10px;}
+.communities .grid .cell {
+	border-radius: 15px;}
+.user-content .grid .cell {
+    background: hsla(220, 0%, 5%, 0.3) !important;}
+.user-content.communities .grid .cell {
+	border-radius: 15px;}
+/*---------------------*/
+/*Menu Selecionar Mecanismo de Pesquisa*/
+#search-menu .bar-divider {
+	-webkit-box-shadow: inset 0 0 0 1px #54222f;
+	-moz-box-shadow: inset 0 0 0 1px #54222f;
+	box-shadow: inset 0 0 0 1px #54222f;}
+#search-menu li.last {
+	border-bottom: 1px solid #54222f;}
+#search-menu li {
+	border-top: 1px solid #1c1f25;
+	border-left: 1px solid #54222f;
+	border-right: 1px solid #54222f;}
+#search-menu:hover {
+	border-right: 1px solid #54222f;}
+#search-menu li:hover {
+	background: rgba(150, 36, 65, 0.91);}
+/*---------------------------------------*/
+/*Bordas Caixas de Diálogo (Selecionada)*/
+.app-right .friends .list-header .input-background.focused,
+.search.focused,
+#search-bar.focused,
+#filter-bar.focused,
+#user-lists .list-header .input-background.focused,
+#user-friends .focused,
+#search-menu .focused,
+#dashboard .focused,
+#rcs-menu .search.focused,
+.dialog-input-background.focused,
+.youtube-input.focused {
+	-webkit-box-shadow: inset 0 0 0 1px rgba(147, 35, 64, 0.70) !important;
+	-moz-box-shadow: inset 0 0 0 1px rgba(147, 35, 64, 0.70) !important;
+	box-shadow: inset 0 0 0 1px rgba(147, 35, 64, 0.70) !important;
+    border-radius: 10px;}
+/*---------------------*/
+/*Menu Informações do Usuário*/
+#user-rollover {
+	background: rgba(0,0,0,.75);
+	box-shadow: 0 0 10px #000;
+    border-radius: 10px 10px 0 0;}
+#user-rollover .info {
+	background: linear-gradient(hsla(43, 75%, 30%,.5), hsla(43, 75%, 15%,.5));
+	box-shadow: 0px -2px 10px -1px #000;
+	border-radius: 50% 50% 0px 0px !important;}
+#user-rollover .info i + span {
+	text-shadow: 0 0 5px #000;}
+#user-rollover .actions .action:hover {
+	background: rgba(170, 54, 84, 0.5);
+	border-radius: 8px;}
+#user-rollover .actions .giftsub,
+#user-rollover .actions .skip {
+	-webkit-box-shadow: inset 0 -2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	-moz-box-shadow: inset 0 -2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	box-shadow: inset 0 -2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	border-radius: 8px;}
+#user-rollover .actions .friend,
+#user-rollover .actions .gift,
+#user-rollover .actions .ignore,
+#user-rollover .actions .mention {
+	-webkit-box-shadow: inset 2px 0 0 -1px hsla(345, 50%, 46%, 0.65);
+	-moz-box-shadow: inset 2px 0 0 -1px hsla(345, 50%, 46%, 0.65);
+	box-shadow: inset 2px 0 0 -1px hsla(345, 50%, 46%, 0.65);
+	border-radius: 8px;}
+#user-rollover .actions .mod-dj {
+	-webkit-box-shadow: inset 0 2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	-moz-box-shadow: inset 0 2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	box-shadow: inset 0 2px 0 -1px hsla(345, 50%, 46%, 0.65);
+	border-radius: 8px;}
+#user-rollover .actions .mod-ban,
+#user-rollover .actions .mod-mute,
+#user-rollover .actions .mod-staff {
+	-webkit-box-shadow: inset 1px 1px 0 0 hsla(345, 50%, 46%, 0.65);
+	-moz-box-shadow: inset 1px 1px 0 0 hsla(345, 50%, 46%, 0.65);
+	box-shadow: inset 1px 1px 0 0 hsla(345, 50%, 46%, 0.65);
+	border-radius: 8px;}
+.action.rcs-qmute {
+	box-shadow: hsla(345, 50%, 46%, 0.65) 0px 2px 0px -1px inset !important;
+	border-radius: 8px;}
+.action.rcs-qban {
+	box-shadow: hsla(345, 50%, 46%, 0.65) 1px 1px 0px 0px inset !important;
+	border-radius: 8px;}
+.action.rcs-qinfo {
+	box-shadow: hsla(345, 50%, 46%, 0.65) 1px 1px 0px 0px inset !important;
+	border-radius: 8px;}
+#user-rollover .meta {
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;}
+/*-----------------------------*/
+/*Barrinha Lateral Mouse*/
+::-webkit-scrollbar-thumb {
+	background: rgba(170, 54, 84, 0.75) !important;
+	border-radius: 5px;}
+.jspDrag:hover,
+.jspTrack .jspActive,
+.jspTrack .jspHover {
+	background: rgba(170, 54, 84, 0.75) !important;
+	border-radius: 5px;}
+.jspDrag {
+	background: rgba(170, 54, 84, 0.75);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(170, 54, 84, 0.45);
+	-moz-box-shadow: inset 0 0 0 1px rgba(170, 54, 84, 0.45);
+	box-shadow: inset 0 0 0 1px rgba(170, 54, 84, 0.45);
+	border-radius: 5px;}
+/*--------------------*/
+/*BG Icone Avatar*/
+.thumb .background {
+	background: rgba(0, 0, 0, 0.6);}
+/*----------------------------------*/
+/*BG Configuração Comunidade*/
+.swap,
+#user-view,
+#dashboard,
+#room-settings,
+#media-panel,
+#playlist-panel,
+#history-panel {
+	background: linear-gradient(hsla(210, 10%, 7%, .9), hsla(210, 10%, 5%, .9)) !important;}
+#user-menu,
+#room-settings-menu,
+#playlist-menu {
+	background: linear-gradient(to right, hsla(210, 10%, 10%, 0), hsla(210, 10%, 10%, 0.2));}
+/*---------------------------------------------------------------------------------------------*/
+/*Cores Menu Configuração Comunidade*/
+#room-settings .general-settings .option.enabled>button.off {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#room-settings .general-settings .option button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#room-settings .general-settings .option button.off {
+	background: linear-gradient(hsla(343, 58%, 41%, 0.78), hsla(345, 100%, 14%, 0.95));
+	border-radius: 8px;}
+#room-settings .general-settings .option.enabled>button.on {
+	background: linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%));
+	border-radius: 8px;}
+#room-settings-menu .item.selected {
+	background: linear-gradient(hsla(343, 58%, 41%, 0.78), hsla(345, 100%, 9%, 0.95));
+	border-radius: 8px;
+}
+.row.clickable .room,
+#room-settings .general-settings a,
+#room-settings .general-settings a:visited {
+    color: rgba(122, 40, 63, 1) !important;
+}
+.dropdown {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;}
+.dropdown dd {
+	background: hsla(220, 0%, 5%, 0.8) !important;}
+.dropdown dt {
+	-webkit-box-shadow: inset -39px 0 0 0 #af3a58;
+	-moz-box-shadow: inset -39px 0 0 0 #af3a58;
+	box-shadow: inset -39px 0 0 0 #af3a58;
+	border-radius: 8px;}
+/*--------------------*/
+/*BG Avatar Loja*/
+.user-content .grid .cell .top {
+	background: none !important;}
+.user-content .grid .cell,
+.user-content.communities .grid .cell {
+	border-radius: 15px;}
+.user-content .grid .cell:hover > .top {
+	background: rgba(175, 58, 89, 0.3) !important;
+	border-radius: 15px;}
+#user-store .misc .grid .cell .title-bar {
+	background: none;}
+#user-store .misc .grid .cell .title-bar span {
+	font-size: 15px;}
+/*BG Avatar Perfil*/
+#user-menu .avatar {
+	/*background: linear-gradient(to bottom, #b23c5c 0, #591e2e 56%, #381b23 73%, #261c1f 100%),*/
+    background: url('https://i.imgur.com/PuMNVOM.png') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;}
+/*-----------------------------------*/
+/*Status: Assinante/Notificações Menu*/
+.subscribe-button {
+	background: hsla(220, 0%, 5%, 0.1) !important;}
+.subscribe-button:hover {
+	background: rgba(170, 54, 84, 0.25) !important;
+	border-radius: 8px;}
+.user-content.profile .meta .blurb .box {
+	background: hsla(220, 0%, 5%, 0.3) !important;
+	border-radius: 10px;}
+.user-content.profile .meta .blurb input {
+    -webkit-box-shadow: inset 0 0 0 1px #9b3052cc;
+	-moz-box-shadow: inset 0 0 0 1px #9b3052cc;
+	box-shadow: inset 0 0 0 1px #9b3052cc;
+	border-radius: 10px;}
+.experience .xp .bar {
+	background: hsla(220, 0%, 5%, 0.7) !important;
+	border-radius: 10px;}
+.user-content.profile .notifications .row {
+	background: hsla(220, 0%, 5%, 0.70);}
+/*---------------------------------------*/
+/*Barra de XP (BG)*/
+#footer-user .info .meta div.bar {
+	background: hsla(220, 0%, 12%, 0.6);}
+/*---------------------------------------*/
+/*Barra de Pesquisa Playlist*/
+#search {
+	background: rgba(19, 20, 23, 0.55);}
+/*--------------------------------------*/
+/*Botão Ativar Playlist*/
+#playlist-activate-button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-activate-button:hover {
+	background: linear-gradient(hsl(0, 100%, 99%), hsla(220, 4%, 5%, 0.51));
+	border-radius: 8px;}
+#playlist-activate-button.active {
+	background: linear-gradient(hsl(0, 100%, 99%), hsla(220, 4%, 5%, 0.51));
+	border-radius: 8px;}
+#playlist-activate-button.active {
+    cursor: default !important;}
+/*----------------------------*/
+/*Botão Editar Playlist*/
+#playlist-edit-button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-edit-button:hover {
+	background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+	border-radius: 8px;}
+/*--------------------*/
+/*Botão Randomizar Músicas*/
+#playlist-shuffle-button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-shuffle-button:hover {
+	background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+	border-radius: 8px;}
+/*--------------------*/
+/*Botão Deletar Playlist*/
+#playlist-delete-button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-delete-button:hover {
+	background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+/*-----------------------------*/
+/*Playlist Música Tocando*/
+.media-list .row.now-playing {
+	background: rgba(183, 34, 74, 0.5)!important;
+	border-bottom: #000000 2px solid!important;
+	border-radius: 8px;}
+/*--------------------*/
+/*Botões Importar/Criar Playlist*/
+#playlist-import {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-import:hover {
+	background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+	border-radius: 8px;}
+#playlist-create {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-create:hover {
+	background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+/*-----------------------------*/
+/*Botões Importar de Outros Serviços*/
+#playlist-import-panel .button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+	border-radius: 8px;}
+#playlist-import-panel .button:hover {
+	background: linear-gradient(hsl(343, 79%, 35%), hsl(343, 77%, 12%));
+	border-radius: 8px;}
+#import-youtube .youtube-input {
+	background: rgba(25, 27, 31, 0.4);
+	box-shadow: inset 0 0 0 1px #51212e;
+	border-radius: 8px;}
+#media-panel .header .import-button {
+	background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+	border-radius: 8px;}
+/*--------------------*/
+/*Botão Editar Música*/
+.media-list .selected .actions {
+	background: linear-gradient(hsl(344, 86%, 23%), hsl(343, 78%, 8%)) !important;
+	border-radius: 8px;}
+.media-list .actions {
+	background: linear-gradient(hsla(222, 16%, 17%, 0.88), hsla(222, 12%, 8%, 0.88)) !important;
+	border-radius: 8px;}
+.media-list .action.edit:hover,
+.media-list .action.related:hover,
+.media-list .action.move-to-bottom:hover,
+.media-list .action.move-to-top:hover,
+.media-list .action.delete:hover {
+	border-radius: 8px;}
+/*--------------------*/
+/*Botão add Histórico DJ*/
+.media-list.history .row:hover .actions {
+    background: linear-gradient(hsl(344, 87%, 23%), hsl(343, 79%, 4%)) !important;
+    border-radius: 8px;
+    margin-right: 140px !important;}
+/*--------------------------------*/
+/*Botões Menu de Amigos*/
+#user-friends .list .row {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+    border-radius: 5px;}
+#user-friends .list .row .buttons button {
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+    border-radius: 5px;}
+#user-friends .list .row .buttons button.positive:hover {
+	background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;}
+#user-friends .list .row .buttons button.negative:hover {
+	background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%));
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;}
+/*-----------------------------*/
+/*Menu Emblemas*/
+.user-content .grid .cell:hover {
+	background: rgba(165, 54, 83, 0.3) !important;}
+#user-inventory .badges .grid .cell.selected {
+	background: rgba(181, 21, 65, 0.5);
+	-webkit-box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);
+	-moz-box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);
+	box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);}
+/*------------------------------------------------------*/
+/*Avatar Selecionado*/
+.avatars .grid .cell:hover .top {
+	background: rgba(181, 21, 65, 0.5);
+	-webkit-box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);
+	-moz-box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);
+	box-shadow: inset 0 0 0 2px rgba(181, 21, 65, 0.5);}
+/*------------------------------------------------------*/
+/*Menu Níveis*/
+.experience .levels .level .label {
+	background: linear-gradient(hsla(0, 14%, 11%, 0.78), hsla(0, 9%, 7%, 0.99));
+	border-radius: 8px;}
+.experience .levels .level {
+	background: linear-gradient(hsla(0, 12%, 24%, 0.72), hsla(255, 9%, 5%, 0.58));
+	border-radius: 8px;}
+.experience .levels .level.mystery .label {
+	background: linear-gradient(hsla(343, 93%, 20%, 0.92), hsla(343, 83%, 11%, 0.91));
+	border-radius: 8px;}
+div.level.earned.ep .label {
+	background: rgba(140, 43, 72, 1) !important;
+	border-radius: 8px;}
+/*--------------------*/
+/*Borda Icone Avatar*/
+#user-rollover .role-host .thumb {
+    border-color: #CD5B45 !important;}
+#user-rollover .role-cohost .thumb {
+    border-color: #CD0000 !important;}
+#user-rollover .role-manager .thumb {
+    border-color: #8A2BE2 !important;}
+#user-rollover .role-bouncer .thumb {
+    border-color: #FF1493 !important;}
+#user-rollover .role-dj .thumb {
+    border-color: #4169E1 !important;}
+#user-rollover .role-user .thumb {
+    border-color: #598700 !important;}
+/*------------------------------------*/
+/*User Online*/
+.thumb.large, .thumb, #user-rollover .meta.online .thumb {
+	border-color: hsl(80,70%,50%) !important;
+	box-shadow: 0 0 7px hsl(80,70%,50%) !important;
+}
+.thumb.large, #user-rollover .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl(80,70%,50%) !important;}
+/*Staff User*/
+#user-rollover.is-staff .meta.online .thumb, #waitlist .is-staff .thumb {
+	border-color: hsl(343, 50%, 50%) !important;
+	box-shadow: 0 0 7px hsl(343, 50%, 50%) !important;
+}
+#user-rollover.is-staff .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl(343, 50%, 50%) !important;}
+/*Assinante User*/
+#user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
+	border-color: hsl(45,80%,45%) !important;
+	box-shadow: 0 0 7px hsl(45,80%,45%) !important;
+}
+#user-rollover .meta.subscriber .thumb.large {
+	box-shadow: 0 0 15px hsl(45,80%,45%) !important;}
+/*Status User*/
+#user-rollover .meta.online .status i {
+	display: none;
+}
+#user-rollover .meta.online .status span {
+	color: hsl(80,70%,50%);
+	margin-left: 0;}
+/*User Offline*/
+.offline .thumb {
+	border-color: hsl(0,0%,40%) !important;
+	box-shadow: none !important;}
+/*-----------------------------*/
+/*Barra de Pedido de Amizade*/
+.app-right .friends .header {
+	background: linear-gradient(rgba(43, 45, 48, 0.780392), rgba(12, 12, 13, 0.909804)) !important;
+	border-radius: 8px;}
+.app-right .friends .header:hover {
+	background: linear-gradient(hsla(343, 58%, 41%, 0.78), hsla(343, 51%, 31%, 0.95)) !important;
+	border-radius: 8px;}
+/*--------------------*/
+/*Tooltip BG*/
+#tooltip span {
+	background: rgba(181, 21, 65, 0.6) !important;}
+#tooltip.right .corner {
+	border-top: 10px solid transparent !important;
+	border-right: 10px solid transparent !important;}
+#tooltip .corner {
+	border-top: 10px solid transparent !important;
+	border-left: 10px solid transparent !important;}
+#toast-notifications .notification .right {
+	background: rgba(71, 9, 27, 0.6) !important;}
+#toast-notifications .notification .left {
+	background: rgba(71, 9, 27, 0.9) !important;}
+#rcs-loader-progress {
+	background-color: rgba(71, 9, 27, 0.9) !important;
+	border: 3px solid rgba(71, 9, 27, 0.9) !important;}
+/*-----------------------------------------------------*/
+/*Menu Grab*/
+.pop-menu .bar {
+	background: linear-gradient(hsl(344, 52%, 34%), hsl(344, 40%, 19%));
+	border-radius: 8px;}
+.pop-menu li {
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 8px;}
+.pop-menu li:hover {
+	background: linear-gradient(hsl(344, 56%, 44%), hsl(344, 65%, 9%));
+	border-radius: 8px;}
+/*--------------------*/
+/*Menu Diálogo/Menu Diálogo Cargos/Botões Confirmar*/
+.dialog-frame .button.cancel {
+	background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1)) !important;
+	border-radius: 8px;}
+#dialog-user-role .role-menu {
+	background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
+	border-radius: 8px;}
+#dialog-user-role .role-menu .menu li {
+	background: linear-gradient(hsl(220, 7%, 9%), hsl(220, 6%, 7%)) !important;
+	border-radius: 8px;}
+#dialog-user-role .role-menu .menu li:hover {
+	background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
+	border-radius: 8px;}
+.dialog-frame .button.submit.destructive {
+	background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;
+	border-radius: 8px;}
+.dialog.destructive .button.submit {
+	background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;
+	border-radius: 8px;}
+.dialog-frame .button.submit,
+.rs .button.submit {
+	background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+.dialog-frame .button.submit.purchase {
+	background: linear-gradient(hsl(99, 44%, 50%), hsl(107, 51%, 23%)) !important;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+.button.rsreset {
+	background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1));
+	border-radius: 8px;}
+div#rs_autowoot_normal .button.submit.cancel {
+	background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;}
+.dialog-frame .button.cancel {
+	color: #fff !important;}
+.dialog.no-submit .button.submit {
+	color: #fff !important;}	
+/*--------------------------*/
+/*Botão Voltar Playlist*/
+#media-panel .header .back {
+	background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
+	box-shadow: 0 0 10px #000;
+	border-radius: 8px;}
+#media-panel .header .back:hover {
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 98%, 27%)) !important;
+	box-shadow: 0 0 10px #000;
+	border-radius: 8px;}
+/*--------------------*/
+/*Menu Plug*/
+#app-menu,
+#app-menu .list {
+    background: rgba(18, 20, 23, 0.62) !important;}
+#app-menu .list .item:hover {
+	background: rgba(89, 23, 42, 0.32);
+	border-radius: 8px;}
+#app-menu .list .rcsunload:hover,
+#app-menu .list .logout:hover {
+	border: 1px solid #7a213a !important;
+	background: rgba(89, 23, 42, 0.32) !important;
+    box-shadow: 0 0 10px #000;}
+/*-----------------------------*/
+/*Cores Status Perfil*/
+#user-rollover .meta .showID,
+#user-rollover .meta .joined {
+color: #fffafa !important;}
+#user-rollover .meta span.user-id {
+color: #fffafa !important;}
+/*-------------------------*/
+/*Configurações*/
+#user-settings .container .item span,
+#user-settings .container .cap .title,
+#user-settings .container .cap .value {
+    color: #fffafa;}
+/*------------------*/
+/*Hover Itens Menu de Configuração Plug*/
+#user-settings .container .item {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  border-radius: 10px;}
+#user-settings .container .item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #992c4a;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;}
+#user-settings .container .item:hover:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);}
+/*------------------------*/
+/*Hover Itens Menu Usuário Plug*/
+.item.profile:hover,
+.item.inventory:hover,
+.item.store:hover,
+.item.friends:hover,
+.item.played:hover,
+.item.settings:hover {
+	background: linear-gradient(rgba(145, 43, 71, 0.68), rgba(104, 24, 46, 0.39));
+	border-radius: 10px;}
+.item.community:hover {
+	background: linear-gradient(rgba(145, 43, 71, 0.68), rgba(104, 24, 46, 0.39));
+	border-radius: 10px;}
+/*---------------------*/
+/*Barra de Avatares Plug*/
+#user-settings .container .cap .slider .bar {
+background: linear-gradient(rgb(91, 21, 40), rgba(81, 16, 34, 0.952941));}
+#volume .slider .line {
+    background: linear-gradient(to right, rgb(255,0,0), rgb(255,128,0), rgb(255,255,0), rgb(0,255,0), rgb(0,255,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255)) !important;}
+#user-settings .container .cap .slider .circle {
+	background: linear-gradient(rgb(178, 57, 90), rgba(85, 11, 23, 0.952941));}
+/*-------------------------------------------------------------------------------*/
+/*Icone Inscrição*/
+.icon-chat-subscriber,
+#user-rollover .meta.subscriber .status i {
+	background: url(https://i.imgur.com/Q0HRDdi.png);
+	background-position: center !important;
+}
+.icon-chat-silver-subscriber,
+#user-rollover .meta.subscriber.silver .status i {
+	background: url(https://i.imgur.com/bOJiuSG.png);
+	background-position: center !important;
+}
+.icon-chat-subscriber + span {
+	color: #D4AF37 !important;
+}
+.icon-chat-silver-subscriber + span {
+    color: #D4D4D4 !important;}
+/*-----------------------------*/
+/* Shake Face/Twitter Icones */
+#facebook-menu:hover {
+  animation: shake 0.82s cubic-bezier(.16,.07,.19,.25) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;}
+@keyframes shake {
+  10%, 90% {
+	transform: translate3d(-1px, 0, 0);} 
+  20%, 80% {
+	transform: translate3d(1px, 0, 0);}
+  30%, 50%, 70% {
+	transform: translate3d(-2px, 0, 0);}
+  40%, 60% {
+	transform: translate3d(2px, 0, 0);}
+}
+#twitter-menu:hover {
+  animation: shake 0.82s cubic-bezier(.16,.07,.19,.25) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;}
+@keyframes shake {
+  10%, 90% {
+	transform: translate3d(-1px, 0, 0);}
+  20%, 80% {
+	transform: translate3d(1px, 0, 0);}
+  30%, 50%, 70% {
+	transform: translate3d(-2px, 0, 0);}
+  40%, 60% {
+	transform: translate3d(2px, 0, 0);}
+}
+/*-----------------------------------*/
+/*Hover Itens de Sugestão*/
+.dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 53%, 19%)) !important;}
+/*Correção da Posição da Logo do Google Play/App Store do Painel Lateral com RCS*/
+#app-menu .android-badge {
+	width: 131px;
+	height: 45px;
+	margin-top: -7px;
+	background: url(https://i.imgur.com/2DJYWAH.png) no-repeat;
+	background-size: 120px 40px;
+}
+#app-menu .iphone-badge {
+	width: 131px;
+	height: 45px;
+	margin-top: -7px;
+	background: url(https://i.imgur.com/SatPCxo.png) no-repeat;
+	background-size: 120px 40px;
+}
+#app-menu .list .rcsunload {
+	height: 45px !important;}

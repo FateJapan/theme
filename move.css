@@ -1,0 +1,44 @@
+.icon-chat-dj {
+    background: url('https://i.imgur.com/6lbJa7w.png') !important;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.icon-chat-bouncer {	
+	background: url("https://i.imgur.com/0Dg19XJ.png") !important;
+	-webkit-animation: iconAni 5s steps(40) infinite; 
+    	-moz-animation: iconAni 5s steps(40) infinite;
+    	-o-animation: iconAni 5s steps(40) infinite;
+    	animation: iconAni 5s steps(40) infinite;
+	
+}
+.icon-chat-manager {	
+	background: url("https://i.imgur.com/ya6AylE.png") !important;
+	-webkit-animation: iconAni 5s steps(40) infinite; 
+    	-moz-animation: iconAni 5s steps(40) infinite;
+    	-o-animation: iconAni 5s steps(40) infinite;
+    	animation: iconAni 5s steps(40) infinite;
+	
+}
+.icon-chat-cohost {	
+	background: url("https://i.imgur.com/vNCV9UE.png") !important;
+	-webkit-animation: iconAni 5s steps(40) infinite; 
+    	-moz-animation: iconAni 5s steps(40) infinite;
+    	-o-animation: iconAni 5s steps(40) infinite;
+    	animation: iconAni 5s steps(40) infinite;
+	
+}
+.icon-chat-promoter {	
+	background: url("https://i.imgur.com/51A9W7y.png") !important;
+	-webkit-animation: iconAni 5s steps(40) infinite; 
+    	-moz-animation: iconAni 5s steps(40) infinite;
+    	-o-animation: iconAni 5s steps(40) infinite;
+    	animation: iconAni 5s steps(40) infinite;
+	
+}
+@keyframes iconAni { from {background-position: 0px;} to {background-position: -600px;} }
+@-o-keyframes iconAni  { from {background-position: 0px;} to {background-position: -600px;} }
+@-webkit-keyframes iconAni { from {background-position: 0px;} to {background-position: -600px;} }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

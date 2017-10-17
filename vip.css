@@ -1,0 +1,58 @@
+/*Vip>Member*/
+/*Chel-San*/
+#chat [data-cid^="3980131-"] .msg .from .un {
+    position: relative;
+    padding-left: 20px;
+    background-image: url(https://i.imgur.com/kxUZLLQ.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: 16px auto;
+    left: 0px;
+} 		
+/*Icone>VIP Perfil*/
+#user-rollover .id-3980131 .meta:before {
+    content: url("https://i.imgur.com/kxUZLLQ.png");
+    top: 120px;
+    left: 109px;
+    position: absolute;
+}
+/*Nome>VIP Perfil*/
+#user-rollover .id-3980131 .meta:after {
+    content: 'VIP Member';
+    color: #e4af2e;
+    position: absolute;
+    top: 118px;
+    left: 130px;
+}
+/*Icone>VIP Lista*/
+#user-lists .list .fromID-3980131 .name, #user-lists .list .id-3980131 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 50px;
+    background-image: url("https://i.imgur.com/kxUZLLQ.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 16px auto;
+    padding-top: 2px;}
+/*------------------*/
+/*Cor Especial*/
+#chat [data-cid^="3980131"] .un {
+    color: #66CDAA !important;
+    position: relative;}
+/*--------------------*/
+/*Premium Member*/
+   /*Chel-San*/
+#user-lists .list .user.id-3980131 .name:after,
+#user-rollover .id-3980131 .meta .username:after,
+#chat [data-cid^='3980131-'] .un:after {
+    content: "Premium";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(205, 171, 0, 0.5);
+    color: #CDAD00;
+    font-size: 10px;
+}
+/*Borda do Usuário*/
+#user-rollover .id-3980131 .meta .thumb {
+   background: rgba(205, 171, 0, 0.8) !important;}

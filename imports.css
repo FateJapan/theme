@@ -1,0 +1,25 @@
+/*CSS>Edit:Fate*/
+/*Importações*/
+@import url("https://fatejapan.github.io/plug/main.css");
+@import url("https://fatejapan.github.io/plug/stylings.css");
+@import url("https://fatejapan.github.io/plug/dj.css");
+@import url("https://fatejapan.github.io/plug/description.css");
+@import url("https://fatejapan.github.io/plug/badges.css");
+@import url("https://fatejapan.github.io/plug/vip.css");
+@import url("https://fatejapan.github.io/plug/mzspace.css");
+@import url("https://fatejapan.github.io/plug/move.css");
+@import url("https://fatejapan.github.io/plug/zoom.css");
+@import url("https://fatejapan.github.io/plug/fonts.css");
+@import url("https://fatejapan.github.io/plug/rlcsr.css");
+/*------------------------------------------------------*/
+#footer #footer-user .info {
+    z-index: 0!important;
+}
+#footer-user .buttons {
+    z-index: -2 !important;
+}
+#footer-user {
+    z-index: -1 !important;
+}
+.thumb.medium .avi {
+	left: -24px!important;}
