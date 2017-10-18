@@ -23,6 +23,7 @@
     position: absolute;
     top: 118px;
     left: 130px;
+    text-shadow: 0 0 2px #e4af2e;
 }
 /*Icone>VIP Lista*/
 #user-lists .list .fromID-3980131 .name, #user-lists .list .id-3980131 .name {
@@ -50,7 +51,7 @@
     background: rgba(0,0,0,.3);
     padding: 0px 5px;
     border: 1px solid rgba(205, 171, 0, 0.5);
-    color: #CDAD00;
+    color: #e4af2e;
     font-size: 10px;
 }
 /*Borda do Usuário*/
