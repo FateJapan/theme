@@ -9,8 +9,7 @@
 @import url("https://fatejapan.github.io/theme/mzspace.css");
 @import url("https://fatejapan.github.io/theme/move.css");
 @import url("https://fatejapan.github.io/theme/zoom.css");
-@import url("https://fatejapan.github.io/theme/fonts.css");
-@import url("https://fatejapan.github.io/theme/rlcsr.css");
+@import url("https://fatejapan.github.io/font/fonts.css");
 /*------------------------------------------------------*/
 #footer #footer-user .info {
     z-index: 0!important;

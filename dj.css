@@ -300,7 +300,7 @@ pointer-events: auto;
 }
 .rcs.item.selected span {
     color: hsl(344, 60%, 50%) !important;}
-/*--------------------------------------*/
+/*----------------------------------------*/
 /*Grab Pop-up*/
 .pop-menu.grab {
     background: transparent;
