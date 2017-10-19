@@ -751,6 +751,7 @@ i.icon.icon-room {
 	color: #eee !important;}
 /*--------------------------*/
 /*Bordas Caixas de Diálogo*/
+.general-settings .description .welcome .panel .title,
 #chat-input,
 #search-bar,
 #filter-bar,
@@ -768,6 +769,7 @@ i.icon.icon-room {
     border-radius: 10px;}
 /*---------------------*/
 /*Bordas Aredondadas Caixa de Diálogo*/
+.general-settings .description .welcome .panel .title,
 #search-bar,
 #filter-bar,
 #search-menu,
@@ -824,6 +826,7 @@ i.icon.icon-room {
 	background: rgba(150, 36, 65, 0.91);}
 /*---------------------------------------*/
 /*Bordas Caixas de Diálogo (Selecionada)*/
+.general-settings .description .welcome .panel .title,
 .app-right .friends .list-header .input-background.focused,
 .search.focused,
 #search-bar.focused,

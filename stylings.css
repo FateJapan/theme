@@ -51,8 +51,6 @@
     /*Padding-Left: 25px;*/
     border: #7681FF 1px solid;
 }
-#chat-messages .emote .icon {
-	/*Left: 4px;*/}
 #chat .emote .text {
     font-style: italic;
     color: #ce9e40;}
@@ -150,4 +148,5 @@ div.message > div.msg > div.from > span.un {
 @-o-keyframes fadein
 {
     from {opacity: 0;};
-    to {opacity: 1;};}
+    to {opacity: 1;};
+}
