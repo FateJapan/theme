@@ -19,11 +19,11 @@
 /*Nome>VIP Perfil*/
 #user-rollover .id-3980131 .meta:after {
     content: 'VIP Member';
-    color: #e4af2e;
+    color: #CDAD00;
     position: absolute;
     top: 118px;
     left: 130px;
-    text-shadow: 0 0 2px #e4af2e;
+    text-shadow: 0 0 2px #CDAD00;
 }
 /*Icone>VIP Lista*/
 #user-lists .list .fromID-3980131 .name, #user-lists .list .id-3980131 .name {
@@ -49,9 +49,9 @@
     content: "Premium";
     margin-left: 5px;
     background: rgba(0,0,0,.3);
-    padding: 0px 5px;
-    border: 2px solid rgba(205, 171, 0, 0.5);
-    color: #e4af2e;
+    padding: 1px 5px;
+    border: 1px solid rgba(205, 171, 0, 0.5);
+    color: #CDAD00;
     font-size: 10px;
 }
 /*Borda do Usuário*/
