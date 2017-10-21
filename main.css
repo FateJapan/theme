@@ -253,6 +253,8 @@ i.icon.icon-room {
 	background: url('https://i.imgur.com/qX5Ltpw.png') !important;}
 .icon-rcsmenu-settings {
 	background: url('https://i.imgur.com/UoqEHad.png') !important;}
+.icon-rcsmenu-moderation {
+	background: url('https://i.imgur.com/SXXqeW5.png') !important;}
 .icon-check-purple {
 	background: url('https://i.imgur.com/IwChAmN.png');
 	background-repeat: no-repeat;
@@ -1108,7 +1110,7 @@ i.icon.icon-room {
 	border-radius: 8px;}
 /*--------------------*/
 /*Botão add Histórico DJ*/
-.media-list.history .row:hover .actions {
+div.media-list.history .row:hover .actions {
     background: linear-gradient(hsl(344, 87%, 23%), hsl(343, 79%, 4%)) !important;
     border-radius: 8px;
     margin-right: 140px !important;}
