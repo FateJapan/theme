@@ -1,0 +1,17 @@
+/*Test DxD*/
+#user-rollover.id-3980131 .joined:after {
+    position: absolute;
+    content: 'Test DxD';
+    background-image: url(https://i.imgur.com/fDgbfwx.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    color: #B0C4DE!important;
+    margin: 72px 0 0 -94px;
+    padding-left: 21px!important;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+#chat-messages [data-cid^='3980131-'] .from .rcs-user-info {
+    margin-left: 84px;}
