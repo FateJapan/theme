@@ -2,21 +2,31 @@
 /*Chel-San*/
 /*Icone>MZ Space Perfil*/
 #user-rollover.id-4063416 .level:before {
-    content: url("https://i.imgur.com/QowhEMT.png");
-    margin: 0 65px 0 !important;
+    position: absolute;
+    background-image: url(https://i.imgur.com/2DFXqCP.png);
+    background-repeat: no-repeat;
+    content: "Master";
+    display: inline-block;
+    color: #CD5B45!important;
+    margin: 0px 0px 0 170px!important;
+    padding: 0 0 0 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 /*Nome>Space Perfil*/
 #user-rollover.id-3980131 .level:after {
+    background-image: url(https://i.imgur.com/QowhEMT.png);
+    background-repeat: no-repeat;
     content: "Space";
     display: inline-block;
-    color: #B0C4DE !important;
+    color: #B0C4DE!important;
     font-weight: bold;
-    margin: 0px 0px 0 18px !important;
+    margin: 0px 0px 0 18px!important;
     padding-left: 20px
 }
 /*Borda do Usuário*/
 #user-rollover.id-3980131 .thumb {
-    border-color: #B0C4DE !important;}
+    border-color: #B0C4DE!important;}
 /*------------------------------------*/
 /*CSS>Dev Custom*/
    /*Chel-San*/

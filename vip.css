@@ -8,7 +8,7 @@
     background-position: 0px center;
     background-size: 16px auto;
     left: 0px;
-    color: #66CDAA !important;
+    color: #66CDAA!important;
 } 		
 /*Icone>VIP Perfil*/
 #user-rollover.id-3980131 .meta:before {
@@ -37,11 +37,6 @@
     background-size: 16px auto;
     padding-top: 2px;}
 /*------------------*/
-/*Cor Especial*/
-/*#chat [data-cid^="3980131"] .un {
-    color: #66CDAA !important;
-    position: relative;}*/
-/*--------------------*/
 /*Premium Member*/
    /*Chel-San*/
 #user-lists .list .user.id-3980131 .name:after,
@@ -58,8 +53,8 @@
 }
 /*Borda do Usuário*/
 #user-rollover.id-3980131 .meta .thumb {
-   background: rgba(205, 171, 0, 0.8) !important;}
-/*------------------------------------------------*/
+   background: rgba(205, 171, 0, 0.8)!important;}
+/*-----------------------------------------------*/
 /*Fix Glitching*/
 #user-rollover .meta {
     min-height: 126px;
@@ -67,17 +62,14 @@
 #user-rollover .meta.subscriber {
     min-height: 146px;}
 /*Fix para Badge Rollover RCS*/
-/*#user-rollover.id-3980131 .meta {
-    height: 146px !important;
-}*/
 #user-rollover.id-3980131 .meta {
-    height: 170px !important;
+    height: 170px!important;
 }
 #user-rollover.id-3980131 .meta #isSpecial {
-    top: 145px !important;
+    top: 145px!important;
 }
 #user-rollover.id-3980131 .meta #isSpecialtxt {
-    top: 143px !important;
+    top: 143px!important;
 }
 #user-rollover.id-3980131 .meta #pp-special{
     display: none;}
