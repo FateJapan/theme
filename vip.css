@@ -1,252 +1,82 @@
-/* Dev Custom */
-
-#user-lists .list .user.id-3980131 .name:after,
-#chat [data-cid^='3980131-'] .un:after,
-#user-lists .list .user.id- .name:after,
-#chat [data-cid^='-'] .un:after,
-#user-lists .list .user.id- .name:after,
-#chat [data-cid^='-'] .un:after {
-    content: 'CSS';
-    display: inline-block;
-    margin: 0 0 0 5px; 
-	padding: 0 3px;
-    color: #ff0048;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    border-radius: 4px;
-    font-size: 10px;
-}
-#user-lists .list .user.id-3980131:hover .name:after,
-#chat [data-cid^='3980131-'] .un:hover:after,
-#user-lists .list .user.id-:hover .name:after,
-#chat [data-cid^='-'] .un:hover:after,
-#user-lists .list .user.id-:hover .name:after,
-#chat [data-cid^='-'] .un:hover:after {
-    background: linear-gradient(rgba(149, 0, 42, 1), rgba(112, 0, 32, 1));
-}
-
-/* Chel-San */
-
-#user-rollover.id-3980131 .meta{
-    height: 190px !important;
-}
-#user-rollover.id-3980131:before{
-    content: 'CSS';
-    top: 170px;
-    left: 109px;
-    position: absolute;
-	display: inline-block; 
-	padding: 0 3px;
-    color: #ff0048;
-    background: linear-gradient(rgba(149, 0, 42, 1), rgba(112, 0, 32, 1));
-    border-radius: 4px;
-    font-size: 10px;
-}
-#user-rollover.id-3980131:after{
-    content: 'Custom Dev';
-    color: #B0C4DE;
-    position: absolute;
-    top: 167px;
-    left: 134px;
-}
-
-/* Vip */
-
-#user-rollover .meta{
-    min-height: 126px;
-}
-#user-rollover .meta.subscriber {
-    min-height: 146px;
-}
-
-/* Formatting Fixes */
-
-#chat [data-cid^='3980131-'] .un, /* Chel-San */
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un, /**/
-#chat [data-cid^='-'] .un  /**/
-{
-    top: -2px !important;
+/*Vip>Member*/
+/*Chel-San*/
+#chat [data-cid^="3980131-"] .msg .from .un .rcs-user-info {
     position: relative;
-}
-#chat [data-cid^='3980131-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info,
-#chat [data-cid^='-'] .rcs-user-info {
-
-    position: relative !important;
-    top: -2px !important;
-}
-
-/* Vip Member */
-
-/* Vip badge next to name in chat */
-#chat [data-cid^='3980131-'] .un:before { 
-        content: url("http://i.imgur.com/M0RFKNO.png"); 
-        top: 2px; Left: -2px; padding-left: 2px;  padding-right: 2px;  position: relative;
-}
-/* User rollover Vip image */
-#user-rollover.id-3980131 .meta:before { 
-            content: url("http://i.imgur.com/M0RFKNO.png");    
-        top: 120px; left: 109px; position: absolute;
-}
-/* User rollover Vip info */
-#user-rollover.id-3980131 .meta:after { 
-            content: 'VIP';
-            color: #CDAD00; position: absolute; top: 118px; left: 130px;
-}
-
-/* If user also has a Vip badge */
-
-#user-rollover.id-3980131 .meta{
-        height: 170px !important;
-}
-#user-rollover.id-3980131 .meta #isSpecial{
-            top: 145px !important;
-}
-#user-rollover.id-3980131 .meta #isSpecialtxt {
-        top: 143px !important;
-}
-
-/* Special Colour */
-
-#chat [data-cid^="3980131"] .un {
-            color: #66CDAA !important;
-            position: relative;
-}
-
-/* Chat icon supporter */
-
-/* Fix for Glitching */
-
-#user-rollover .meta{
-   min-height: 126px;
-}
-
-#chat [data-cid^='3980131-'] .un:before,
-#chat [data-cid^='-'] .un:before,
-#chat [data-cid^='-'] .un:before,
-#chat [data-cid^='-'] .un:before,
-#chat [data-cid^='-'] .un:before,
-#chat [data-cid^='-'] .un:before,
-#chat [data-cid^='-'] .un:before {
-    content: url("http://i.imgur.com/M0RFKNO.png");
-    top: 3px;
-    Left: -3px;
-    position: relative;
-}
-
-/* Padding */
-
-#chat [data-cid^='3980131-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un,
-#chat [data-cid^='-'] .un {
-    top: -3px !important;
-    position: relative;
-}
-
-/* Tooltip VIP */
-
-#chat [data-cid^='3980131-'] .un:hover:after,
-#chat [data-cid^='-'] .un:hover:after,
-#chat [data-cid^='-'] .un:hover:after,
-#chat [data-cid^='-'] .un:hover:after,
-#chat [data-cid^='-'] .un:hover:after{
-    content: 'VIP';
-    background: url('');
-    padding: 3px 6px;
-    color: white;
-    bottom: 20px;
-    position: absolute;
-    left: 5px;
-    width: 79px;
-    height: 26px;
-}
-
-/* Normal VIP */
-
-#user-rollover.id-3980131 .meta,
-#user-rollover.id- .meta,
-#user-rollover.id- .meta,
-#user-rollover.id- .meta,
-#user-rollover.id- .meta,
-#user-rollover.id- .meta{
-height: 146px !important;
-}
-
-/* VIP Member */
-
-#user-rollover.id-3980131 .meta:before,
-#user-rollover.id- .meta:before,
-#user-rollover.id- .meta:before,
-#user-rollover.id- .meta:before,
-#user-rollover.id- .meta:before,
-#user-rollover.id- .meta:before{
-    content: url("http://i.imgur.com/M0RFKNO.png");
+    padding-left: 20px;
+    background-image: url(https://i.imgur.com/kxUZLLQ.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: 16px auto;
+    left: 0px;
+} 		
+/*Icone>VIP Perfil*/
+#user-rollover.id-3980131 .meta:before {
+    content: url("https://i.imgur.com/kxUZLLQ.png");
     top: 120px;
     left: 109px;
     position: absolute;
 }
-#user-rollover.id-3980131 .meta:after,
-#user-rollover.id- .meta:after,
-#user-rollover.id- .meta:after,
-#user-rollover.id- .meta:after,
-#user-rollover.id- .meta:after,
-#user-rollover.id- .meta:after{
-    content: 'VIP';
+/*Nome>VIP Perfil*/
+#user-rollover.id-3980131 .meta:after {
+    content: 'VIP Member';
     color: #CDAD00;
     position: absolute;
     top: 118px;
     left: 130px;
+    text-shadow: 0 0 2px #CDAD00;
 }
-
-/* People who also support another things (RCS) */
-
-#user-rollover.id-3980131 .meta,
-#user-rollover.id- .meta{
-height: 170px !important;
+/*Icone>VIP Lista*/
+#user-lists .list .fromID-3980131 .name, #user-lists .list .id-3980131 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 50px;
+    background-image: url("https://i.imgur.com/kxUZLLQ.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 16px auto;
+    padding-top: 2px;}
+/*------------------*/
+/*Cor Especial*/
+#chat [data-cid^="3980131"] .un {
+    color: #66CDAA !important;
+    position: relative;}
+/*--------------------*/
+/*Premium Member*/
+   /*Chel-San*/
+#user-lists .list .user.id-3980131 .name:after,
+#user-rollover.id-3980131 .meta .username:after,
+#chat [data-cid^='3980131-'] .un:after {
+    content: "Premium";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(205, 171, 0, 0.5);
+    border-radius: 2px;
+    color: #CDAD00;
+    font-size: 10px;
 }
-#user-rollover.id-3980131 .meta #isSpecial,
-#user-rollover.id- .meta #isSpecial,
-#user-rollover.id- .meta #isSpecial{
+/*Borda do Usuário*/
+#user-rollover.id-3980131 .meta .thumb {
+   background: rgba(205, 171, 0, 0.8) !important;}
+/*------------------------------------------------*/
+/*Fix Glitching*/
+#user-rollover .meta {
+    min-height: 126px;
+}
+#user-rollover .meta.subscriber {
+    min-height: 146px;}
+/*Fix para Badge Rollover RCS*/
+#user-rollover.id-3980131 .meta {
+    height: 146px !important;
+}
+#user-rollover.id-3980131 .meta {
+    height: 170px !important;
+}
+#user-rollover.id-3980131 .meta #isSpecial {
     top: 145px !important;
 }
-#user-rollover.id-3980131 .meta #isSpecialtxt,
-#user-rollover.id- .meta #isSpecialtxt,
-#user-rollover.id- .meta #isSpecialtxt {
+#user-rollover.id-3980131 .meta #isSpecialtxt {
     top: 143px !important;
 }
-
-/* Premium Member */
-
-#chat [data-cid^='3980131-'] .un:after,
-#user-lists .list .user.id-3980131 .name:after,
-#user-rollover.id-3980131 .username:after {
-    content: 'Premium'!important;
-    border-style: solid!important;
-    border-color: #CDAD00!important;
-    border-radius: 2px;
-    border-width: 0.1px;
-    color: #CDAD00 !important;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 5px;
-    padding: 0 3px;
-    font-style: normal;
-}
-
-#user-rollover .id-3980131 .thumb {
-    background: #CDAD00 !important;
-}
+#user-rollover.id-3980131 .meta #pp-special{
+    display: none;}
