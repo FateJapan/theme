@@ -1,7 +1,7 @@
 /*MZ>Space*/
 /*Chel-San*/
 /*Icone/Nome>MZ Space Perfil*/
-#user-rollover.id-3980131 .level:after {
+/*#user-rollover.id-3980131 .level:after {
     background-image: url(https://i.imgur.com/QowhEMT.png);
     background-repeat: no-repeat;
     content: "Space";
@@ -10,37 +10,37 @@
     font-weight: bold;
     margin: 0px 0px 0 18px!important;
     padding-left: 20px
-}
+}*/
 /*Borda do Usuário*/
-#user-rollover.id-3980131 .thumb {
-    border-color: #B0C4DE!important;}
+/*#user-rollover.id-3980131 .thumb {
+    border-color: #B0C4DE!important;}*/
 /*------------------------------------*/
 /*CSS>Dev Custom*/
    /*Chel-San*/
 /*Icone>CSS Perfil*/
-#user-rollover.id-3980131 .meta:before {
+/*#user-rollover.id-3980131 .meta:before {
     content: url("https://i.imgur.com/6aph5FJ.png");
     top: 145px;
     left: 109px;
     position: absolute;
-}
+}*/
 /*Nome>CSS Perfil*/
-#user-rollover.id-3980131 .meta:after {
+/*#user-rollover.id-3980131 .meta:after {
     content: 'Custom Dev';
     color: #B0C4DE;
     position: absolute;
     top: 143px;
     left: 134px;
-    text-shadow: 0 0 2px #B0C4DE;}
+    text-shadow: 0 0 2px #B0C4DE;}*/
 /*--------------------------------*/
 /*Fix Glitching*/
-#user-rollover .meta {
+/*#user-rollover .meta {
     min-height: 126px;
 }
 #user-rollover .meta.subscriber {
     min-height: 146px;}
 /*Fix para Badge Rollover RCS*/
-#user-rollover.id-3980131 .meta {
+/*#user-rollover.id-3980131 .meta {
     height: 170px!important;
 }
 #user-rollover.id-3980131 .meta #isSpecial {
@@ -50,4 +50,4 @@
     top: 143px!important;
 }
 #user-rollover.id-3980131 .meta #pp-special{
-    display: none;}
+    display: none;}*/
