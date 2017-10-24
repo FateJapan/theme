@@ -34,13 +34,11 @@
     font-size: 14px;}
 /*-----------------*/
 /*Fix para Badge Rollover RCS*/
+#user-rollover .meta{
+    min-height: 126px;
+}
+#user-rollover .meta.subscriber {
+ min-height: 146px;
+}
 #user-rollover.id-3980131 .meta {
     height: 170px!important;}
-/*-------------------------*/
-#chat [data-cid^='3980131-'] .un:after {
-    content: url(https://i.imgur.com/6aph5FJ.png);
-    padding: 0 5px 0 0px!important;
-    margin-left: -98px
-}
-#chat-messages [data-cid^='3980131-'] .from .rcs-user-info {
-    margin-left: 84px}
