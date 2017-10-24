@@ -41,4 +41,13 @@
  min-height: 146px;
 }
 #user-rollover.id-3980131 .meta {
-    height: 170px!important;}
+    height: 170px!important;
+}
+#user-rollover.id-3980131 .meta #isSpecial {
+    top: 145px !important;
+}
+#user-rollover.id-3980131 .meta #isSpecialtxt {
+    top: 143px !important;
+}
+#user-rollover.id-3980131 .meta #pp-special{
+    display: none;}
