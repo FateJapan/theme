@@ -1301,7 +1301,8 @@ div#rs_autowoot_normal.button.submit.cancel {
 /*Menu Plug*/
 #app-menu,
 #app-menu .list {
-    background: rgba(18, 20, 23, 0.62) !important;}
+	background: rgba(18, 20, 23, 0.62) !important;
+	border-radius: 8px;}
 #app-menu .list .item:hover {
 	background: rgba(89, 23, 42, 0.32);
 	border-radius: 8px;}
@@ -1309,8 +1310,9 @@ div#rs_autowoot_normal.button.submit.cancel {
 #app-menu .list .logout:hover {
 	border: 1px solid #7a213a !important;
 	background: rgba(89, 23, 42, 0.32) !important;
-    box-shadow: 0 0 10px #000;}
-/*-----------------------------*/
+	box-shadow: 0 0 10px #000;
+	border-radius: 8px;}
+/*--------------------*/
 /*Cores Status Perfil*/
 #user-rollover .meta .showID,
 #user-rollover .meta .joined {
