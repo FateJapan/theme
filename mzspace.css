@@ -1,20 +1,5 @@
 /*MZ>Space*/
 /*Chel-San*/
-#user-rollover.role-host.id-3476433 .role i {
-    background-image: url(https://i.imgur.com/WSdsSBS.png)!important;
-}
-#user-rollover.id-4063416 .level:before {
-    position: absolute;
-    background-image: url(https://i.imgur.com/2DFXqCP.png);
-    background-repeat: no-repeat;
-    content: "Master";
-    display: inline-block;
-    color: #CD5B45!important;
-    margin: 0px 0px 0 170px!important;
-    padding: 0 0 0 18px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
 /*Icone/Nome>MZ Space Perfil*/
 #user-rollover.id-3980131 .level:after {
     background-image: url(https://i.imgur.com/QowhEMT.png);
@@ -47,3 +32,22 @@
     top: 143px;
     left: 134px;
     text-shadow: 0 0 2px #B0C4DE;}
+/*--------------------------------*/
+/*Fix Glitching*/
+#user-rollover .meta {
+    min-height: 126px;
+}
+#user-rollover .meta.subscriber {
+    min-height: 146px;}
+/*Fix para Badge Rollover RCS*/
+#user-rollover.id-3980131 .meta {
+    height: 170px!important;
+}
+#user-rollover.id-3980131 .meta #isSpecial {
+    top: 145px!important;
+}
+#user-rollover.id-3980131 .meta #isSpecialtxt {
+    top: 143px!important;
+}
+#user-rollover.id-3980131 .meta #pp-special{
+    display: none;}
