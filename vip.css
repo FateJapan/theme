@@ -53,8 +53,8 @@
 }
 /*Borda do Usuário*/
 #user-rollover.id-3980131 .meta .thumb {
-   background: rgba(205, 171, 0, 0.8)!important;}
-/*-----------------------------------------------*/
+    border-color: rgba(205, 171, 0, 0.8)!important;}
+/*--------------------------------------------------*/
 /*Fix Glitching*/
 #user-rollover .meta {
     min-height: 126px;

@@ -1,6 +1,8 @@
 /*MZ>Space*/
 /*Chel-San*/
-/*Icone>MZ Space Perfil*/
+#user-rollover.role-host.id-3476433 .role i {
+    background-image: url(https://i.imgur.com/WSdsSBS.png)!important;
+}
 #user-rollover.id-4063416 .level:before {
     position: absolute;
     background-image: url(https://i.imgur.com/2DFXqCP.png);
@@ -13,7 +15,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-/*Nome>Space Perfil*/
+/*Icone/Nome>MZ Space Perfil*/
 #user-rollover.id-3980131 .level:after {
     background-image: url(https://i.imgur.com/QowhEMT.png);
     background-repeat: no-repeat;
