@@ -1,6 +1,6 @@
 /*Vip>Member*/
 /*Chel-San*/
-#chat [data-cid^="3980131-"] .msg .from .un .rcs-user-info {
+#chat [data-cid^="3980131-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
     background-image: url(https://i.imgur.com/kxUZLLQ.png);
@@ -8,6 +8,7 @@
     background-position: 0px center;
     background-size: 16px auto;
     left: 0px;
+    color: #66CDAA !important;
 } 		
 /*Icone>VIP Perfil*/
 #user-rollover.id-3980131 .meta:before {
@@ -37,9 +38,9 @@
     padding-top: 2px;}
 /*------------------*/
 /*Cor Especial*/
-#chat [data-cid^="3980131"] .un {
+/*#chat [data-cid^="3980131"] .un {
     color: #66CDAA !important;
-    position: relative;}
+    position: relative;}*/
 /*--------------------*/
 /*Premium Member*/
    /*Chel-San*/
@@ -66,9 +67,9 @@
 #user-rollover .meta.subscriber {
     min-height: 146px;}
 /*Fix para Badge Rollover RCS*/
-#user-rollover.id-3980131 .meta {
+/*#user-rollover.id-3980131 .meta {
     height: 146px !important;
-}
+}*/
 #user-rollover.id-3980131 .meta {
     height: 170px !important;
 }
