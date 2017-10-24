@@ -56,13 +56,13 @@
     border-color: rgba(205, 171, 0, 0.8)!important;}
 /*--------------------------------------------------*/
 /*Fix Glitching*/
-#user-rollover .meta {
+/*#user-rollover .meta {
     min-height: 126px;
 }
 #user-rollover .meta.subscriber {
-    min-height: 146px;}
+    min-height: 146px;}*/
 /*Fix para Badge Rollover RCS*/
-#user-rollover.id-3980131 .meta {
+/*#user-rollover.id-3980131 .meta {
     height: 170px!important;
 }
 #user-rollover.id-3980131 .meta #isSpecial {
@@ -72,4 +72,4 @@
     top: 143px!important;
 }
 #user-rollover.id-3980131 .meta #pp-special{
-    display: none;}
+    display: none;}*/
