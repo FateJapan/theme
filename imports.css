@@ -16,10 +16,13 @@
     z-index: 0!important;
 }
 #footer-user .buttons {
-    z-index: -2 !important;
+    z-index: -2 !important
 }
 #footer-user {
-    z-index: -1 !important;
+    z-index: -1 !important
 }
 .thumb.medium .avi {
-	left: -24px!important;}
+    left: -24px!important;
+}
+.thumb .background {
+    background: transparent!important}
