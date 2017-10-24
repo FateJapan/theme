@@ -18,14 +18,14 @@
 /*CSS>Dev Custom*/
    /*Chel-San*/
 /*Icone>CSS Perfil*/
-#user-rollover.id-3980131 .meta:before {
+#user-rollover.id-3980131 .joined:before {
     content: url("https://i.imgur.com/6aph5FJ.png");
     top: 145px;
     left: 109px;
     position: absolute;
 }
 /*Nome>CSS Perfil*/
-#user-rollover.id-3980131 .meta:after {
+#user-rollover.id-3980131 .joined:after {
     content: 'Custom Dev';
     color: #B0C4DE;
     position: absolute;
