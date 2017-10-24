@@ -1,7 +1,7 @@
 /*MZ>Space*/
 /*Chel-San*/
 /*Icone/Nome>MZ Space Perfil*/
-/*#user-rollover.id-3980131 .level:after {
+#user-rollover.id-3980131 .level:after {
     background-image: url(https://i.imgur.com/QowhEMT.png);
     background-repeat: no-repeat;
     content: "Space";
@@ -10,11 +10,11 @@
     font-weight: bold;
     margin: 0px 0px 0 18px!important;
     padding-left: 20px
-}*/
+}
 /*Borda do Usuário*/
-/*#user-rollover.id-3980131 .thumb {
-    border-color: #B0C4DE!important;}*/
-/*------------------------------------*/
+#user-rollover.id-3980131 .thumb {
+    border-color: #B0C4DE!important;}
+/*-----------------------------------*/
 /*CSS>Dev Custom*/
    /*Chel-San*/
 /*Icone>CSS Perfil*/
