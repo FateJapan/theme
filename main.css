@@ -283,7 +283,7 @@ i.icon.icon-room {
 /*Configurações*/
    /*Fundo*/
 #user-view,
-#waitlist .user .list .sortable-placeholder {
+#waitlist .list .sortable-placeholder {
 	background: #21070b;
 	border-radius: 8px;}
 /*--------------------*/
@@ -380,7 +380,7 @@ i.icon.icon-room {
 	background: linear-gradient(to right, rgb(255,0,0), rgb(255,128,0), rgb(255,255,0), rgb(0,255,0), rgb(0,255,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255)) !important;}    
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Desaparecimento Decorrido*/
-.elapsing .jspContainer {
+.elapsing {
 	opacity: 0.0 !important;
 	transition: opacity 1.0s !important;}
 /*-------------------------------------*/
@@ -1107,6 +1107,7 @@ i.icon.icon-room {
 .media-list .action.move-to-bottom:hover,
 .media-list .action.move-to-top:hover,
 .media-list .action.delete:hover {
+	background: linear-gradient(hsl(344, 87%, 23%), hsl(343, 79%, 4%)) !important;
 	border-radius: 8px;}
 /*--------------------*/
 /*Botão add Histórico DJ*/
@@ -1165,17 +1166,17 @@ div.level.earned.ep .label {
 	border-radius: 8px;}
 /*--------------------*/
 /*Borda Icone Avatar*/
-#user-rollover .role-host .thumb {
+#user-rollover.role-host .thumb {
     border-color: #CD5B45 !important;}
-#user-rollover .role-cohost .thumb {
+#user-rollover.role-cohost .thumb {
     border-color: #CD0000 !important;}
-#user-rollover .role-manager .thumb {
+#user-rollover.role-manager .thumb {
     border-color: #8A2BE2 !important;}
-#user-rollover .role-bouncer .thumb {
+#user-rollover.role-bouncer .thumb {
     border-color: #FF1493 !important;}
-#user-rollover .role-dj .thumb {
+#user-rollover.role-dj .thumb {
     border-color: #4169E1 !important;}
-#user-rollover .role-user .thumb {
+#user-rollover.role-user .thumb {
     border-color: #598700 !important;}
 /*------------------------------------*/
 /*User Online*/
@@ -1278,7 +1279,7 @@ div.level.earned.ep .label {
 .button.rsreset {
 	background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1));
 	border-radius: 8px;}
-div#rs_autowoot_normal .button.submit.cancel {
+div#rs_autowoot_normal.button.submit.cancel {
 	background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
 	border-radius: 8px;
 	box-shadow: 0 0 10px #000;}
