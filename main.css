@@ -399,7 +399,8 @@ i.icon.icon-room {
 #footer-user .info .meta .bar .progress {
 	background: rgba(178, 49, 83, 1);
 	box-shadow: 0 0 10px hsl(343, 100%, 50%) !important;}
-#footer-user .info .points .pp {
+#footer-user .info .points .pp,
+.user-content.profile .points .label {
 	color: hsl(345, 100%, 57%);
 }
 #the-user-profile .experience .bar, #footer-user .info .meta .bar {
@@ -1429,7 +1430,8 @@ background: linear-gradient(rgb(91, 21, 40), rgba(81, 16, 34, 0.952941));}
 /*-----------------------------------*/
 /*Hover Itens de Sugestão*/
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
-	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 53%, 19%)) !important;}
+	background: linear-gradient(hsl(343, 53%, 48%), hsl(343, 53%, 19%)) !important;
+	border-radius: 8px;}
 /*Correção da Posição da Logo do Google Play/App Store do Painel Lateral com RCS*/
 #app-menu .android-badge {
 	width: 131px;
