@@ -1,10 +1,5 @@
 /*CSS>Edit:Fate*/
-/*Main*/
-/*Icones*/
-.icon {
-	background-image: url("https://i.imgur.com/ry9Rf9D.png");}
-/*----------------------------------------------------------*/
-/*[BOT]*/
+    /*[BOT]*/
 /*#chat [data-cid^="3980131-"] span.un.clickable {
 	color: rgba(155, 17, 54, 1) !important;}
 #chat [data-cid^="3980131-"].emote {
@@ -236,6 +231,8 @@ i.icon.icon-room {
     color: #542131;}
 /*------------------*/
 /*Icones*/
+.icon {
+	background-image: url("https://i.imgur.com/oU92uXR.png");}
 .icon-radiant-clearchat {
 	position: absolute;
 	width: 30px;
@@ -263,9 +260,7 @@ i.icon.icon-room {
 	background: url('https://i.imgur.com/beaJGsk.png');
 	background-repeat: no-repeat;
 	background-position: 3px;}
-/*.icon-site-logo {
-	background: url('') no-repeat;}*/
-/*-------------------------------*/
+/*--------------------------*/
 #footer .bar-button .section .chevron:before {
 	background: #af3d5c;
 	border-radius: 8px;}
