@@ -281,7 +281,7 @@ pointer-events: auto;
 /*RCS Vote List*/
 .votes-rs {
     background-color: rgba(0, 0, 0, 0.50) !important;
-}
+    border-radius: 8px;}
 #woot-rs .title {
     background-color: #25b961;
 }
@@ -295,12 +295,13 @@ pointer-events: auto;
     border: none !important;
 }
 #rcs-menu-container .container .group {
-    border-color: hsl(343, 49%, 20% ) !important;
-    background: linear-gradient(hsla(343, 49%, 10%,.8), hsla(343, 49%, 7% ,.8)) !important;
-}
+    border-color: hsl(343, 49%, 20%) !important;
+    background: linear-gradient(hsla(343, 49%, 10%,.8), hsla(343, 49%, 7%,.8)) !important;
+    border-radius: 8px;}
 .rcs.item.selected span {
-    color: hsl(344, 60%, 50%) !important;}
-/*----------------------------------------*/
+    color: hsl(344, 60%, 50%) !important;
+    border-radius: 8px;}
+/*--------------------*/
 /*Grab Pop-up*/
 .pop-menu.grab {
     background: transparent;
