@@ -1108,7 +1108,7 @@ i.icon.icon-room {
 .media-list .actions {
 	background: linear-gradient(hsla(222, 16%, 17%, 0.88), hsla(222, 12%, 8%, 0.88)) !important;
 	border-radius: 8px;}
-.add,
+.add:hover,
 .media-list .action.edit:hover,
 .media-list .action.related:hover,
 .media-list .action.move-to-bottom:hover,
