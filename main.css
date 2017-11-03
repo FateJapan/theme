@@ -1118,7 +1118,7 @@ i.icon.icon-room {
 	border-radius: 8px;}
 /*--------------------*/
 /*Botão add Histórico DJ*/
-.media-list.history .row:hover .actions {
+.media-list.history .actions {
     background: linear-gradient(hsl(344, 87%, 23%), hsl(343, 79%, 4%)) !important;
     border-radius: 8px;
     margin-right: 140px !important;}
