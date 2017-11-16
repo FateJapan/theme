@@ -82,13 +82,13 @@ top: 0 !important;
 }
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url(https://i.imgur.com/ttyiyTZ.png);
+    content: url(https://i.imgur.com/oXPYQnI.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
 }
 #woot.crowd-response .icon:before {
-    content: url(https://i.imgur.com/oXPYQnI.png);
+    content: url(https://i.imgur.com/ttyiyTZ.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
